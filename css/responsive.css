@@ -1,0 +1,110 @@
+@media (max-width:768px){
+  .inner, .review, .recommend{width: 100%;}
+  .desc{font-size: 20px;}
+  .tit{font-size: 40px;}
+  .txt{font-size: 15px;}
+  .login_nav,.main_nav ul li{display: none;}
+  .main_nav_iconWrap{display: flex; align-items: center;}
+  .main_nav_iconWrap div{padding: 0 10px;}
+  .mobile_menu{display: block; cursor: pointer; position: relative; color: var(--main-visual-color);}
+  .serch_item input{background-color: var(--main-visual-color);}
+  .serch::before{background-color: var(--main-visual-color);}
+  .serch i{color: var(--main-visual-color);}
+  #s_it{width: 230px;}
+  /* 아코디언 메뉴 */
+  .accordion{width: 100%;}
+  .accordion_item{border-bottom: 1px solid rgba(128, 128, 128, 0.291);}
+  .accordion_title{padding: 1rem; font-size: 18px; background-color:#fff; cursor: pointer;  text-align: center;}
+  .accordion_content{display: none; background-color: #f5f5f5;}
+  .accordion_content.active{display: block;}
+  .menu_icon i{font-size: 30px;}
+  .accordion_content ul li{padding: .8rem; cursor: pointer; text-align: center;}
+  .accordion_content ul li a{position: relative; transition: .3s;}
+  .accordion_content ul li a::before{
+  content: '';
+  position: absolute;
+  width: 0%; height: 0;
+  left: 50%; bottom: -5px; transform: translateX(-50%);
+  background-color: var(--main-visual-color); transition: .2s;
+  }
+  .accordion_content ul li a:hover::before{width: 150%; height: 2px;}
+  .accordion_content ul li a:hover{color: var(--main-visual-color); font-weight: bold;}
+  /* 메인 타이틀 */
+  .main_title{overflow: hidden;}
+  /* 검색 */
+  .serch_item input{width: 50%;}
+  /* 퀵메뉴 카드 */
+  .menu_card{margin-bottom: 10px;}
+  /* 메인비주얼 */
+  .swiper-slide:not(.swiper-slide-active) .image{display: none;}
+  .swiper-slide.swiper-slide-active .image{transform: scale(1.2);}
+  .visual_textBox{width: 500px;}
+  .visual_textBox h3{font-size: 40px;}
+  .visual_textBox p{font-size: 15px;}
+  .title_img{flex-wrap: wrap;}
+  .title_img div{margin-top: -20px;}
+  .title_img div:nth-child(3){order: 4; z-index: 497;}
+  .title_img div:nth-child(4){order: 3; z-index: 498;}
+  .title_img h5{font-size: 18px}
+  .title_img p{font-size: 13px;}
+  /* 키워드검색 */
+  .input_wrap input{width: 80%;}
+  .recommend{width: 90%;}
+  /* 뉴스 */
+  .news_list, .health_list{width: 100%;}
+  .news, .health{width: 100%;}
+  .card{width: 30%;}
+  .card_img{width: 100%;}
+  .card_img img{margin-left: 0;}
+  .card{margin: 10px;}
+  .card_text span{font-size: 14px;}
+  /* 리뷰 */
+  .more_review_btn button{width: 20%; height: 50%; border-radius: 5px; font-size: 12px; font-weight: bold; background-color: #fff; color: var(--main-visual-color); right: 5%; top: 10%;}
+  .more_review_btn button:hover{background-color: var(--main-visual-color); color: #fff;}
+  .mySwiper02{width: 100%;}
+  .review_text_box .type{font-size: 15px;}
+  .review_text_box .review_text{font-size: 16px; font-weight: bold; color: #000;}
+  .review_text_box .user{font-size: 10px;}
+  /* 오시는길 */
+  .map_icons ul li{width: 14%;}
+  .map_icons i{font-size: 30px;}
+  .icons_name ul li{font-size: 15px;}
+  /* 지도 */
+  .main_map > iframe{width: 80%; height: 600px;}
+  .map_layer{display: none;}
+  /* 푸터 */
+  footer{margin-bottom: 12%;}
+  .footerNav_menu{width: 80%;}
+  .footer_content ul li{margin: 20px;}
+  .footer_text address{margin: 20px;}
+  .footer_logo img{margin: 20px;}
+  /* 탑버튼 */
+  .topBtn_wrap{display: flex; justify-content: space-evenly; width: 100%; bottom: 0; left: 0; transform: translateX(50%); height: 10%; background-color:#fff; border-radius: 10px 10px 0 0; border: none;}
+  .topBtn_wrap:hover{border: none; background-color: var(--main-visual-color);}
+  .topBtn_wrap:hover a{color: #fff}
+  .topBtn:hover a::after{width: 120%; background-color: #fff}
+  .topBtn:first-child a{margin: 20px 0 0 0;}
+  .topBtn:last-child{display: none;}
+  .topBtn{}
+  .topBtn a{color: var(--main-visual-color); display: flex; align-items: center;}
+  .topBtn a::after{width: 0%;}
+  .topBtn i{margin-bottom: 10px; margin-top: -12px;}
+  /* 로그인 반응형 */
+  .login{width: 80%;}
+  .login_text{flex-direction: column; text-align: center;}
+  .login_text img{width: 70px; margin: auto; margin-bottom: 15px;}
+  /* 회원가입 반응형 */
+  .regist{width: 95%;}
+  .regist_tit h3{font-size: 20px;}
+  .regist_tit p{font-size: 14px;}
+  .ui_progress_bar{padding: 20px;}
+  .ui_progress_bar span{font-size: 14px;}
+  .ui_progress_bar p{font-size: 12px;}
+  .ui_progress_bar div::before{width: 80px; height: 80px; transform: translateX(13%) translateY(13%);}
+  /* 공지사항 전체보기 반응형 */
+  .page_title{width: 100%; margin-left:0;}
+  .page_title ul{margin-left: 0;}
+  .news_all{width: 100%;}
+  .news_all_box{width: 95%;}/* 수정할지 고민해보자 */
+  #my-table{width: 95%;}
+}

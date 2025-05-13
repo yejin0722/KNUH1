@@ -1,0 +1,23 @@
+/* 한글 폰트 Pretendard */
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+/* 영문 폰트 Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 폰트어썸 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+*{font-family: 'Pretendard-Regular', 'Roboto', sans-serif; margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth;}
+h1, h2, h3, h4, h5, h6 {
+  font-size:inherit;
+  font-weight:500;
+}
+ul,ol,li {
+  list-style:none;
+}
+a{color: #5E6268; text-decoration: none;}
+input:focus{outline: none;}

@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>강원대학교병원 > 공지사항</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- 헤더 -->
+  <header>
+    <div class="login_nav">
+      <nav>
+        <ul>
+          <li><a href="regist.html">회원가입</a></li>
+          <li><a href="login.html">로그인</a></li>
+          <li>
+            <a href="#none">LANGUAGE <i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li><a href="#none"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main_nav">
+        <a href="../index.html"><img src="../images/mainLogo.png" alt=""></a>
+      <div class="main_menu">
+        <ul>
+          <li class="menu_item" data-target="medical_guide">
+            <a href="#none">진료안내</a>
+          </li>
+          <li class="menu_item" data-target="reserve">
+            <a href="#none">진료예약</a>
+          </li>
+          <li class="menu_item" data-target="guide">
+            <a href="#none">이용안내</a>
+          </li>
+          <li class="menu_item" data-target="hospital">
+            <a href="#none">병원소개</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main_nav_iconWrap">
+        <div class="serch_wrap">
+          <div class="serch_item">
+          <input type="text" id="s_it" placeholder="질병명, 의료진명, 진료과명">
+        </div>
+        <div class="serch" id="serch"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        </div>
+        <div class="mobile_menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 헤더 메인네비게이션에 마우스오버시 나타나는 상세메뉴 -->
+<div class="sub_wrap">
+  <div class="sub_menu" id="medical_guide">
+    <div class="submenu_content">
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>진료과/의료진</h3></a>
+          <ul>
+            <li><a href="#none">전체보기</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>전문센터</h3></a>
+          <ul>
+            <li><a href="#none">전체보기</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>클리닉</h3></a>
+          <ul>
+            <li><a href="#none"> 암다학제클리닉</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>외래진료안내</h3></a>
+          <ul>
+            <li><a href="#none">외래진료</a></li>
+            <li><a href="#none">외래진료</a></li>
+            <li><a href="#none">응급진료</a></li>
+            <li><a href="#none">외국인진료</a></li>
+            <li><a href="#none">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>입/퇴원안내</h3></a>
+          <ul>
+            <li><a href="#none">입원절차안내</a></li>
+            <li><a href="#none">퇴원절차안내</a></li>
+            <li><a href="#none">입원생활안내</a></li>
+            <li><a href="#none">간호/간병 통합서비스 안내</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>진료비 하이패스 (후불제)</h3></a>
+        </div>
+        <div>
+          <a href="#none"><h3>진료지원</h3></a>
+          <ul>
+            <li><a href="#none">의료사회사업</a></li>
+            <li><a href="#none">가정간호</a></li>
+            <li><a href="#none">호스피스</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>의약품정보</h3></a>
+          <ul>
+            <li><a href="#none">알림마당</a></li>
+            <li><a href="#none">의약소식지</a></li>
+            <li><a href="#none">약물이상반응</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>건강정보</h3></a>
+          <ul>
+            <li><a href="#none">전문진료분야</a></li>
+            <li> <a href="#none">질환정보</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sub_menu" id="reserve">
+    <div class="submenu_content">
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>예약안내</h3></a>
+          <ul>
+            <li><a href="#none">외래예약</a></li>
+            <li><a href="#none">간편예약</a></li>
+            <li><a href="#none">인터넷진료예약</a></li>
+            <li><a href="#none">종합검진예약</a></li>
+            <li><a href="#none">국가건강검진</a></li>
+            <li><a href="#none">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>예약확인</h3></a>
+          <ul>
+            <li><a href="#none">인터넷진료예약확인</a></li>
+            <li><a href="#none">종합검진예약확인</a></li>
+            <li><a href="#none">진료내역 및 예약 조회</a></li>
+      </div>
+    </div>
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>증명서발급</h3></a>
+          <ul>
+            <li><a href="#none">제증명/진단서 발급</a></li>
+            <li><a href="#none">의무기록사본/CD복사</a></li>
+            <li><a href="#none">국제공인예방접종증명서(황열)</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>비급여진료비</h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sub_menu" id="guide">
+    <div class="submenu_content">
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>고객지원</h3></a>
+          <ul>
+            <li><a href="#none">자주묻는질문</a></li>
+            <li><a href="#none">고객의소리</a></li>
+            <li><a href="#none">친절직원</a></li>
+            <li><a href="#none">국민제안(정책제안)</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>찾아오시는길</h3></a>
+        </div>
+        <div>
+          <a href="#none"><h3>원내배치도</h3></a>
+        </div>
+      </div>
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>전화번호안내</h3></a>
+          <ul>
+            <li><a href="#none">본원</a></li>
+            <li><a href="#none">관절염·재활센터</a></li>
+            <li><a href="#none">업무별 연락처</a></li>
+        </div>
+      <div>
+        <a href="#none"><h3>주차안내</h3></a>
+        <ul>
+          <li><a href="#none">본원</a></li>
+          <li><a href="#none">관절염·재활센터</a></li>
+    </div>
+    <div>
+      <a href="#none"><h3>편의시설</h3></a>
+    </div>
+      </div>
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>장례식장</h3></a>
+        </div>
+        <div>
+          <a href="#none"><h3>정보공개</h3></a>
+          <ul>
+            <li><a href="#none">경영정보공개</a></li>
+            <li><a href="#none">사전정보공개</a></li>
+            <li><a href="#none">정보공개청구</a></li>
+            <li><a href="#none">공무국외여행보고서</a></li>
+            <li><a href="#none">사업실명제</a></li>
+          </ul>
+      </div>
+    </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>청렴센터</h3></a>
+            <ul>
+              <li><a href="#none">반부패/청렴정책</a></li>
+              <li><a href="#none">청렴정보공개</a></li>
+              <li><a href="#none">청렴위반신고(감사실)</a></li>
+              <li><a href="#none">청렴위반신고(국민권익위원회)</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>공정계약모니터링</h3></a>
+            <ul>
+              <li><a href="#none">공정계약모니터링 안내</a></li>
+              <li><a href="#none">설문조사 작성</a></li>
+              <li><a href="#none">청렴위반신고(감사실)</a></li>
+              <li><a href="#none">청렴위반신고(국민권익위원회)</a></li>
+            </ul>
+          </div>
+      </div>
+      </div>
+  </div>
+  <div class="sub_menu" id="hospital">
+    <div class="submenu_content">
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>병원소개</h3></a>
+          <ul>
+            <li><a href="#none">병원장 인사말</a></li>
+            <li><a href="#none">미션/비전</a></li>
+            <li><a href="#none">현황</a></li>
+            <li><a href="#none">연혁</a></li>
+            <li><a href="#none">조직도</a></li>
+            <li><a href="#none">HI 소개</a></li>
+            <li><a href="#none">시그니처/엠블럼/기타</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>병원소식</h3></a>
+          <ul>
+            <li><a href="news.html">공지사항</a></li>
+            <li><a href="#none">보도자료</a></li>
+            <li><a href="#none">언론&방송</a></li>
+            <li><a href="#none">건강정보동영상</a></li>
+            <li><a href="#none">채용공고</a></li>
+            <li><a href="#none">입찰공고</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>행복지기</h3></a>
+        </div>
+      </div>
+      <div class="sub_menu_wrap">
+        <div>
+          <a href="#none"><h3>홍보동영상</h3></a>
+        </div>
+        <div>
+          <a href="#none"><h3>서비스헌장</h3></a>
+          <ul>
+            <li><a href="#none">환자권리장전</a></li>
+            <li><a href="#none">고객헌장</a></li>
+            <li><a href="#none">병원윤리강령</a></li>
+            <li><a href="#none">사회공헌헌장</a></li>
+            <li><a href="#none">안전보건경영방침</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#none"><h3>공공보건의료</h3></a>
+        </div>
+        <div>
+          <a href="#none"><h3>발전기금</h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 모바일에서 보이는 아코디언메뉴 -->
+<div class="accordion" id="accordion_menu">
+  <div class="accordion_item">
+    <div class="accordion_title">진료안내</div>
+    <div class="accordion_content">
+      <ul>
+        <li><a href="#none">진료과/의료진</a></li>
+        <li><a href="#none">전문센터</a></li>
+        <li><a href="#none">클리닉</a></li>
+        <li><a href="#none">외래진료안내</a></li>
+        <li><a href="#none">입/퇴원안내</a></li>
+        <li><a href="#none">진료비 하이패스 (후불제)</a></li>
+        <li><a href="#none">진료지원</a></li>
+        <li><a href="#none">의약품정보</a></li>
+        <li><a href="#none">건강정보</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="accordion_item">
+    <div class="accordion_title">진료예약</div>
+    <div class="accordion_content">
+      <ul>
+        <li><a href="#none">예약안내</a></li>
+        <li><a href="#none">예약확인</a></li>
+        <li><a href="#none">증명서발급</a></li>
+        <li><a href="#none">비급여진료비</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="accordion_item">
+    <div class="accordion_title">이용안내</div>
+    <div class="accordion_content">
+      <ul>
+        <li><a href="#none">고객지원</a></li>
+        <li><a href="#none">찾아오시는길</a></li>
+        <li><a href="#none">원내배치도</a></li>
+        <li><a href="#none">전화번호안내</a></li>
+        <li><a href="#none">주차안내</a></li>
+        <li><a href="#none">편의시설</a></li>
+        <li><a href="#none">장례식장</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="accordion_item">
+    <div class="accordion_title">병원소개</div>
+    <div class="accordion_content">
+      <ul>
+        <li><a href="#none">병원소개</a></li>
+        <li><a href="#none">병원소식</a></li>
+        <li><a href="#none">행복지기</a></li>
+        <li><a href="#none">홍보동영상</a></li>
+        <li><a href="#none">서비스헌장</a></li>
+        <li><a href="#none">공공보건의료</a></li>
+        <li><a href="#none">발전기금</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<main>
+  <section class="news_all inner">
+    <div class="page_title">
+      <ul>
+        <li><i class="fa-solid fa-house"></i></li>
+        <li>병원소개</li>
+        <li>병원소식</li>
+        <li class="nowpage">공지사항</li>
+      </ul>
+    </div>
+    <div class="news_all_box">
+      <p>총 게시물<span>110</span></p>
+      <select name="type" id="type">
+        <option value="all">- 전체 -</option>
+        <option value="title">제목</option>
+        <option value="author">작성자</option>
+      </select>
+      <input type="text" placeholder="검색어를 입력해 주세요.">
+      <button>검색</button>
+    </div>
+    <table id="my-table">
+        <thead>
+          <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>등록일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>110</td>
+            <td>제 10기 강원대학교병원 호스피스 자원봉사자 양성교육</td>
+            <td>대외협력팀</td>
+            <td>2025/04/28</td>
+          </tr>
+          <tr>
+            <td>109</td>
+            <td>"이해충돌 한마디 공모전" 안내</td>
+            <td>감사실</td>
+            <td>2025/04/16</td>
+          </tr>
+          <tr>
+            <td>108</td>
+            <td>2025년 정부지원금 부정수급 집중신고기간  운영 안내</td>
+            <td>감사실</td>
+            <td>2025/03/27</td>
+          </tr>
+          <tr>
+            <td>107</td>
+            <td>대리처방 안내</td>
+            <td>대외협력팀</td>
+            <td>2025/03/10</td>
+          </tr>
+          <tr>
+            <td>106</td>
+            <td>방문전 유의사항 안내</td>
+            <td>대외협력팀</td>
+            <td>2025/03/10</td>
+          </tr>
+          <tr>
+            <td>105</td>
+            <td>진료비 하이패스 안내</td>
+            <td>대외협력팀</td>
+            <td>2025/03/10</td>
+          </tr>
+          <tr>
+            <td>104</td>
+            <td>원내 주차안내도</td>
+            <td>대외협력팀</td>
+            <td>2025/03/10</td>
+          </tr>
+          <tr>
+            <td>103</td>
+            <td>2024년 혁신행정 업무 유공 후보자 겅개검증</td>
+            <td>총무과</td>
+            <td>2024/11/08</td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td>코로나19 확산에 따른 원내 마스크 착용안내</td>
+            <td>감염관리실</td>
+            <td>2024/08/21</td>
+          </tr>
+          <tr>
+            <td>101</td>
+            <td>강원권역 암생존자 통함지지센터 안내</td>
+            <td>대외협력팀</td>
+            <td>2024/07/17</td>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td>불만 및 고충 사항 접수 안내</td>
+            <td>대외협력팀</td>
+            <td>2024/06/25</td>
+          </tr>
+          <tr>
+            <td>99</td>
+            <td>병원 내 방치자전거 폐기 안내</td>
+            <td>대외협력팀</td>
+            <td>2024/03/18</td>
+          </tr>
+          <tr>
+            <td>98</td>
+            <td>병원 내 감염예방지침 준수 안내</td>
+            <td>감염관리실</td>
+            <td>2024/03/08</td>
+          </tr>
+          <tr>
+            <td>97</td>
+            <td>코로나19 확진자 외래 진료 안내</td>
+            <td>감염관리실</td>
+            <td>2024/03/08</td>
+          </tr>
+          <tr>
+            <td>96</td>
+            <td>인터넷 제증명 발급 가능 증명서 종류 확대 안내</td>
+            <td>대외협력팀</td>
+            <td>2025/01/05</td>
+          </tr>
+          <tr>
+            <td>95</td>
+            <td>2024년도 반부패주간 행사 개최 안내</td>
+            <td>감사실</td>
+            <td>2024/01/03</td>
+          </tr>
+          <tr>
+            <td>94</td>
+            <td>전자처방전달 서비스 제휴 약국 안내</td>
+            <td>개발자</td>
+            <td>2023/12/19</td>
+          </tr>
+          <tr>
+            <td>93</td>
+            <td>2024년 독감 예방접종 안내</td>
+            <td>감염관리실</td>
+            <td>2024/10/01</td>
+          </tr>
+          <tr>
+            <td>92</td>
+            <td>응급실 리모델링 공사 일정 안내</td>
+            <td>시설관리팀</td>
+            <td>2024/09/25</td>
+          </tr>
+          <tr>
+            <td>91</td>
+            <td>의료기기 점검 일정 안내</td>
+            <td>의공팀</td>
+            <td>2024/09/15</td>
+          </tr>
+          <tr>
+            <td>90</td>
+            <td>2024년 하반기 직원 복지포인트 신청 안내</td>
+            <td>총무팀</td>
+            <td>2024/09/10</td>
+          </tr>
+          <tr>
+            <td>89</td>
+            <td>환자안전 주간 캠페인 안내</td>
+            <td>환자안전팀</td>
+            <td>2024/08/28</td>
+          </tr>
+          <tr>
+            <td>88</td>
+            <td>병원 내 소방훈련 일정 안내</td>
+            <td>안전관리팀</td>
+            <td>2024/08/10</td>
+          </tr>
+          <tr>
+            <td>87</td>
+            <td>주차장 이용 제한 안내</td>
+            <td>시설관리팀</td>
+            <td>2024/07/30</td>
+          </tr>
+          <tr>
+            <td>86</td>
+            <td>여름철 식중독 예방 안내</td>
+            <td>영양팀</td>
+            <td>2024/07/15</td>
+          </tr>
+          <tr>
+            <td>85</td>
+            <td>2024년 병원 만족도 조사 실시</td>
+            <td>대외협력팀</td>
+            <td>2024/07/01</td>
+          </tr>
+          <tr>
+            <td>84</td>
+            <td>신입 간호사 교육 프로그램 일정</td>
+            <td>간호부</td>
+            <td>2024/06/25</td>
+          </tr>
+          <tr>
+            <td>83</td>
+            <td>개인정보보호 교육 안내</td>
+            <td>정보보호팀</td>
+            <td>2024/06/10</td>
+          </tr>
+          <tr>
+            <td>82</td>
+            <td>병문안 제한 안내</td>
+            <td>감염관리실</td>
+            <td>2024/05/30</td>
+          </tr>
+          <tr>
+            <td>81</td>
+            <td>코로나19 백신 추가접종 시행 안내</td>
+            <td>감염관리실</td>
+            <td>2024/05/15</td>
+          </tr>
+          <tr>
+            <td>80</td>
+            <td>근로자의 날 진료 일정 안내</td>
+            <td>원무팀</td>
+            <td>2024/04/25</td>
+          </tr>
+          <tr>
+            <td>79</td>
+            <td>소아청소년과 진료시간 변경 안내</td>
+            <td>소아청소년과</td>
+            <td>2024/04/10</td>
+          </tr>
+          <tr>
+            <td>78</td>
+            <td>병원 미화원 모집 공고</td>
+            <td>총무팀</td>
+            <td>2024/03/30</td>
+          </tr>
+          <tr>
+            <td>77</td>
+            <td>진료비 자동이체 신청 안내</td>
+            <td>원무팀</td>
+            <td>2024/03/15</td>
+          </tr>
+          <tr>
+            <td>76</td>
+            <td>의료 폐기물 분리수거 교육</td>
+            <td>감염관리실</td>
+            <td>2024/02/28</td>
+          </tr>
+          <tr>
+            <td>75</td>
+            <td>화재 예방 점검 안내</td>
+            <td>안전관리팀</td>
+            <td>2024/02/10</td>
+          </tr>
+          <tr>
+            <td>74</td>
+            <td>직원 건강검진 일정</td>
+            <td>건강검진센터</td>
+            <td>2024/01/25</td>
+          </tr>
+          <tr>
+            <td>73</td>
+            <td>2024년 신년사 및 병원 비전 공유</td>
+            <td>병원장실</td>
+            <td>2024/01/02</td>
+          </tr>
+          <tr>
+            <td>72</td>
+            <td>의료진 해외 연수 보고회 안내</td>
+            <td>교육연구팀</td>
+            <td>2023/12/15</td>
+          </tr>
+          <tr>
+            <td>71</td>
+            <td>응급의료센터 시설 정비 공지</td>
+            <td>응급의료센터</td>
+            <td>2023/12/01</td>
+          </tr>
+          <tr>
+            <td>70</td>
+            <td>화재 대피 훈련 안내</td>
+            <td>안전관리팀</td>
+            <td>2023/11/20</td>
+          </tr>
+          <tr>
+            <td>69</td>
+            <td>진료실 번호 체계 변경 안내</td>
+            <td>원무팀</td>
+            <td>2023/11/10</td>
+          </tr>
+          <tr>
+            <td>68</td>
+            <td>퇴직자 기념식 안내</td>
+            <td>인사팀</td>
+            <td>2023/10/25</td>
+          </tr>
+          <tr>
+            <td>67</td>
+            <td>환자경험평가 실시 안내</td>
+            <td>대외협력팀</td>
+            <td>2023/10/10</td>
+          </tr>
+          <tr>
+            <td>66</td>
+            <td>병원 전산시스템 점검 안내</td>
+            <td>전산팀</td>
+            <td>2023/09/30</td>
+          </tr>
+          <tr>
+            <td>65</td>
+            <td>직원 대상 인권 교육 안내</td>
+            <td>인사팀</td>
+            <td>2023/09/15</td>
+          </tr>
+          <tr>
+            <td>64</td>
+            <td>중추절 진료 일정 안내</td>
+            <td>원무팀</td>
+            <td>2023/09/01</td>
+          </tr>
+          <tr>
+            <td>63</td>
+            <td>감염병 대응 모의훈련 공지</td>
+            <td>감염관리실</td>
+            <td>2023/08/20</td>
+          </tr>
+          <tr>
+            <td>62</td>
+            <td>하계 휴가철 진료시간 안내</td>
+            <td>대외협력팀</td>
+            <td>2023/08/01</td>
+          </tr>
+          <tr>
+            <td>61</td>
+            <td>의료봉사 활동 참가자 모집</td>
+            <td>사회사업팀</td>
+            <td>2023/07/20</td>
+          </tr>
+          <tr>
+            <td>60</td>
+            <td>장마철 감염 예방 안내</td>
+            <td>감염관리실</td>
+            <td>2023/07/05</td>
+          </tr>
+          <tr>
+            <td>59</td>
+            <td>입원실 환경개선 공사 안내</td>
+            <td>시설관리팀</td>
+            <td>2023/06/25</td>
+          </tr>
+          <tr>
+            <td>58</td>
+            <td>여름철 건강관리 캠페인</td>
+            <td>건강검진센터</td>
+            <td>2023/06/10</td>
+          </tr>
+          <tr>
+            <td>57</td>
+            <td>의사 연수교육 일정 안내</td>
+            <td>교육연구팀</td>
+            <td>2023/05/30</td>
+          </tr>
+          <tr>
+            <td>56</td>
+            <td>신입 직원 환영 행사 안내</td>
+            <td>인사팀</td>
+            <td>2023/05/15</td>
+          </tr>
+          <tr>
+            <td>55</td>
+            <td>장기기증 서약 캠페인 실시</td>
+            <td>대외협력팀</td>
+            <td>2023/05/01</td>
+          </tr>
+          <tr>
+            <td>54</td>
+            <td>직원 건강 증진 프로그램 안내</td>
+            <td>총무팀</td>
+            <td>2023/04/20</td>
+          </tr>
+          <tr>
+            <td>53</td>
+            <td>전자처방전 시스템 교육</td>
+            <td>의료정보팀</td>
+            <td>2023/04/10</td>
+          </tr>
+          <tr>
+            <td>52</td>
+            <td>부서장 회의 일정 변경 공지</td>
+            <td>기획예산팀</td>
+            <td>2023/03/30</td>
+          </tr>
+          <tr>
+            <td>51</td>
+            <td>의료윤리 교육 안내</td>
+            <td>감사실</td>
+            <td>2023/03/15</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td>내부 감사 일정 안내</td>
+            <td>감사실</td>
+            <td>2023/03/01</td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td>직원 대상 무료 독감 접종 실시</td>
+            <td>감염관리실</td>
+            <td>2023/02/20</td>
+          </tr>
+          <tr>
+            <td>48</td>
+            <td>의료보수 규정 개정 안내</td>
+            <td>기획예산팀</td>
+            <td>2023/02/10</td>
+          </tr>
+          <tr>
+            <td>47</td>
+            <td>야간 진료 확대 안내</td>
+            <td>원무팀</td>
+            <td>2023/01/30</td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td>설 연휴 진료일정 공지</td>
+            <td>원무팀</td>
+            <td>2023/01/15</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td>병원 주차장 이용규칙 변경</td>
+            <td>총무팀</td>
+            <td>2023/01/05</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td>원내 약품 분류 체계 변경</td>
+            <td>약제팀</td>
+            <td>2022/12/20</td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td>중환자실 보호자 면회 제한 안내</td>
+            <td>감염관리실</td>
+            <td>2022/12/10</td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td>의료 폐기물 분리배출 교육</td>
+            <td>감염관리실</td>
+            <td>2022/11/30</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td>건강강좌 - 고혈압 바로알기</td>
+            <td>건강검진센터</td>
+            <td>2022/11/15</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>심전도 장비 점검 공지</td>
+            <td>의공팀</td>
+            <td>2022/11/01</td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td>병원 홈페이지 개인정보 처리방침 변경</td>
+            <td>정보보호팀</td>
+            <td>2022/10/25</td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td>영양식단 변경 안내</td>
+            <td>영양팀</td>
+            <td>2022/10/10</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>정신건강의 날 행사 안내</td>
+            <td>정신건강의학과</td>
+            <td>2022/10/01</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td>병동 명칭 변경 안내</td>
+            <td>총무팀</td>
+            <td>2022/09/15</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>감염병 예방관리 워크숍</td>
+            <td>감염관리실</td>
+            <td>2022/09/01</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>자동심장충격기(AED) 사용법 교육</td>
+            <td>응급의료센터</td>
+            <td>2022/08/20</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>여름철 열사병 예방 수칙</td>
+            <td>감염관리실</td>
+            <td>2022/08/05</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>병원 외부청소 용역 입찰 공고</td>
+            <td>총무팀</td>
+            <td>2022/07/25</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>정전 대비 비상발전기 점검</td>
+            <td>시설관리팀</td>
+            <td>2022/07/10</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>방사선 장비 교체 일정</td>
+            <td>영상의학과</td>
+            <td>2022/06/30</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>병원 SNS 홍보 콘텐츠 공모</td>
+            <td>홍보팀</td>
+            <td>2022/06/15</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>병원 창립기념일 행사 안내</td>
+            <td>대외협력팀</td>
+            <td>2022/06/01</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>방문객 발열체크 운영 종료 안내</td>
+            <td>감염관리실</td>
+            <td>2022/05/20</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>2022년 병원 재난대응 교육</td>
+            <td>안전관리팀</td>
+            <td>2022/05/10</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>5월 가정의 달 진료 안내</td>
+            <td>원무팀</td>
+            <td>2022/05/01</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>병원 식당 운영시간 조정 안내</td>
+            <td>영양팀</td>
+            <td>2022/04/25</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>수술 예약 시스템 개선 안내</td>
+            <td>원무팀</td>
+            <td>2022/04/10</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>정기 소방점검 시행 공지</td>
+            <td>시설관리팀</td>
+            <td>2022/03/30</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>환자 보호자 대상 스트레스 관리 교육</td>
+            <td>사회사업팀</td>
+            <td>2022/03/15</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>병원 내 분실물 처리 안내</td>
+            <td>총무팀</td>
+            <td>2022/03/01</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>모유수유 클리닉 운영 재개 안내</td>
+            <td>소아청소년과</td>
+            <td>2022/02/20</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>설 연휴 응급실 운영 안내</td>
+            <td>응급의료센터</td>
+            <td>2022/01/25</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>병원 통합예약센터 개설 안내</td>
+            <td>원무팀</td>
+            <td>2022/01/10</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>의료폐기물 수거 시간 변경</td>
+            <td>감염관리실</td>
+            <td>2021/12/20</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>마스크 착용 의무화 재안내</td>
+            <td>감염관리실</td>
+            <td>2021/12/10</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>연말 직원 시상식 안내</td>
+            <td>인사팀</td>
+            <td>2021/12/01</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>진료과 이동 안내 (이비인후과 → 2층)</td>
+            <td>원무팀</td>
+            <td>2021/11/25</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>입원 전 코로나 검사 안내</td>
+            <td>감염관리실</td>
+            <td>2021/11/10</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>전산 장애 사전 점검 안내</td>
+            <td>전산팀</td>
+            <td>2021/10/25</td>
+          </tr>          
+          <tr>
+            <td>10</td>
+            <td>병원 안내 데스크 운영시간 변경</td>
+            <td>대외협력팀</td>
+            <td>2021/09/01</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>의료진 프로필 업데이트 안내</td>
+            <td>인사팀</td>
+            <td>2021/08/10</td>
+          </tr>
+        <tr>
+          <td>8</td>
+          <td>퇴원절차 간소화 안내</td>
+          <td>원무팀</td>
+          <td>2021/06/30</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>진료 과목별 위치 안내</td>
+          <td>대외협력팀</td>
+          <td>2021/01/15</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>연말연시 진료 안내</td>
+          <td>원무팀</td>
+          <td>2020/12/20</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>직원 대상 심폐소생술 교육</td>
+          <td>응급의료센터</td>
+          <td>2020/12/05</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>연말 자원봉사 프로그램 모집</td>
+          <td>사회사업팀</td>
+          <td>2020/11/28</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>감기 예방 캠페인 실시</td>
+          <td>감염관리실</td>
+          <td>2020/11/10</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>주차 요금 정책 변경 안내</td>
+          <td>총무팀</td>
+          <td>2020/10/25</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>병원 홈페이지 리뉴얼 오픈</td>
+          <td>홍보팀</td>
+          <td>2020/10/01</td>
+        </tr>
+        </tbody>
+        <colgroup>
+          <col class="col1">
+          <col class="col2">
+          <col class="col3">
+          <col class="col3">
+          <col class="col1">
+          <col class="col1">
+        </colgroup>
+    </table>
+    <div class="pagenation">
+      <i class="fa-solid fa-angles-left"></i>
+      <i class="fa-solid fa-angle-left"></i>
+      <ol id="numbers"></ol>
+      <i class="fa-solid fa-angle-right"></i>
+      <i class="fa-solid fa-angles-right"></i>
+    </div>
+  </section>
+</main>
+<!-- 푸터 -->
+<footer>
+  <div class="footerNav_wrap">
+    <div class="footerNav">
+      <div class="footerNav_title">
+        <span>
+          진료과 <i class="fa-solid fa-list"></i>
+        </span>
+      </div>
+      <div class="footerNav_menu menu1">
+        <ul>
+          <li><a href="#none">가정의학과</a></li>
+          <li><a href="#none">감염내과</a></li>
+          <li><a href="#none">마취통증의학과</a></li>
+          <li><a href="#none">방사선종양학과</a></li>
+          <li><a href="#none">병리과</a></li>
+          <li><a href="#none">비뇨의학과</a></li>
+          <li><a href="#none">산부인과</a></li>
+          <li><a href="#none">소아청소년과</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerNav">
+      <div class="footerNav_title">
+        <span>
+          전문센터 <i class="fa-solid fa-list"></i>
+        </span>
+      </div>
+      <div class="footerNav_menu menu2">
+        <ul>
+          <li><a href="#none">종합건강증진센터</a></li>
+          <li><a href="#none">중환자진료센터</a></li>
+          <li><a href="#none">진료협력센터</a></li>
+          <li><a href="#none">지역의약품안전센터</a></li>
+          <li><a href="#none">국제진료센터</a></li>
+          <li><a href="#none">비뇨의학과</a></li>
+          <li><a href="#none">장기이식센터</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer_content">
+    <ul>
+      <li><a href="#none">개인정보 처리방침</a></li>
+      <li><a href="#none">고객헌장</a></li>
+      <li><a href="#none">환자권리와 의무</a></li>
+      <li><a href="#none">경영정보공개 </a></li>
+    </ul>
+  </div>
+  <div class="footer_text">
+    <address>(24289) 강원특별자치도 춘천시 백령로 156 강원대학교병원, 대표전화 : 033-258-2000 <br>
+      COPYRIGHT(C) 2010 KNUH.OR.KR ALL RIGHTS RESERVED. 응급의료센터 033-258-2293</address>
+      <div class="footer_logo">
+        <img src="../images/mainLogo.png" alt="">
+      </div>
+  </div>
+</footer>
+<script src="../js/pages.js"></script>
+<script src="../js/pagination.js"></script>
+</body>
+</html>

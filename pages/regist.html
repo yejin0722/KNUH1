@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>강원대학교병원 > 회원가입</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- 헤더 -->
+  <header>
+    <div class="login_nav">
+      <nav>
+        <ul>
+          <li><a href="regist.html">회원가입</a></li>
+          <li><a href="login.html">로그인</a></li>
+          <li>
+            <a href="#none">LANGUAGE <i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li><a href="#none"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main_nav">
+        <a href="../index.html"><img src="../images/mainLogo.png" alt=""></a>
+      <div class="main_menu">
+        <ul>
+          <li class="menu_item" data-target="medical_guide">
+            <a href="#none">진료안내</a>
+          </li>
+          <li class="menu_item" data-target="reserve">
+            <a href="#none">진료예약</a>
+          </li>
+          <li class="menu_item" data-target="guide">
+            <a href="#none">이용안내</a>
+          </li>
+          <li class="menu_item" data-target="hospital">
+            <a href="#none">병원소개</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main_nav_iconWrap">
+        <div class="serch_wrap">
+          <div class="serch_item">
+          <input type="text" id="s_it" placeholder="질병명, 의료진명, 진료과명">
+        </div>
+        <div class="serch" id="serch"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        </div>
+        <div class="mobile_menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 헤더 메인네비게이션에 마우스오버시 나타나는 상세메뉴 -->
+  <div class="sub_wrap">
+    <div class="sub_menu" id="medical_guide">
+      <div class="submenu_content">
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>진료과/의료진</h3></a>
+            <ul>
+              <li><a href="#none">전체보기</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>전문센터</h3></a>
+            <ul>
+              <li><a href="#none">전체보기</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>클리닉</h3></a>
+            <ul>
+              <li><a href="#none"> 암다학제클리닉</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>외래진료안내</h3></a>
+            <ul>
+              <li><a href="#none">외래진료</a></li>
+              <li><a href="#none">외래진료</a></li>
+              <li><a href="#none">응급진료</a></li>
+              <li><a href="#none">외국인진료</a></li>
+              <li><a href="#none">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>입/퇴원안내</h3></a>
+            <ul>
+              <li><a href="#none">입원절차안내</a></li>
+              <li><a href="#none">퇴원절차안내</a></li>
+              <li><a href="#none">입원생활안내</a></li>
+              <li><a href="#none">간호/간병 통합서비스 안내</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>진료비 하이패스 (후불제)</h3></a>
+          </div>
+          <div>
+            <a href="#none"><h3>진료지원</h3></a>
+            <ul>
+              <li><a href="#none">의료사회사업</a></li>
+              <li><a href="#none">가정간호</a></li>
+              <li><a href="#none">호스피스</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>의약품정보</h3></a>
+            <ul>
+              <li><a href="#none">알림마당</a></li>
+              <li><a href="#none">의약소식지</a></li>
+              <li><a href="#none">약물이상반응</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>건강정보</h3></a>
+            <ul>
+              <li><a href="#none">전문진료분야</a></li>
+              <li> <a href="#none">질환정보</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub_menu" id="reserve">
+      <div class="submenu_content">
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>예약안내</h3></a>
+            <ul>
+              <li><a href="#none">외래예약</a></li>
+              <li><a href="#none">간편예약</a></li>
+              <li><a href="#none">인터넷진료예약</a></li>
+              <li><a href="#none">종합검진예약</a></li>
+              <li><a href="#none">국가건강검진</a></li>
+              <li><a href="#none">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>예약확인</h3></a>
+            <ul>
+              <li><a href="#none">인터넷진료예약확인</a></li>
+              <li><a href="#none">종합검진예약확인</a></li>
+              <li><a href="#none">진료내역 및 예약 조회</a></li>
+        </div>
+      </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>증명서발급</h3></a>
+            <ul>
+              <li><a href="#none">제증명/진단서 발급</a></li>
+              <li><a href="#none">의무기록사본/CD복사</a></li>
+              <li><a href="#none">국제공인예방접종증명서(황열)</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>비급여진료비</h3></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub_menu" id="guide">
+      <div class="submenu_content">
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>고객지원</h3></a>
+            <ul>
+              <li><a href="#none">자주묻는질문</a></li>
+              <li><a href="#none">고객의소리</a></li>
+              <li><a href="#none">친절직원</a></li>
+              <li><a href="#none">국민제안(정책제안)</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>찾아오시는길</h3></a>
+          </div>
+          <div>
+            <a href="#none"><h3>원내배치도</h3></a>
+          </div>
+        </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>전화번호안내</h3></a>
+            <ul>
+              <li><a href="#none">본원</a></li>
+              <li><a href="#none">관절염·재활센터</a></li>
+              <li><a href="#none">업무별 연락처</a></li>
+          </div>
+        <div>
+          <a href="#none"><h3>주차안내</h3></a>
+          <ul>
+            <li><a href="#none">본원</a></li>
+            <li><a href="#none">관절염·재활센터</a></li>
+      </div>
+      <div>
+        <a href="#none"><h3>편의시설</h3></a>
+      </div>
+        </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>장례식장</h3></a>
+          </div>
+          <div>
+            <a href="#none"><h3>정보공개</h3></a>
+            <ul>
+              <li><a href="#none">경영정보공개</a></li>
+              <li><a href="#none">사전정보공개</a></li>
+              <li><a href="#none">정보공개청구</a></li>
+              <li><a href="#none">공무국외여행보고서</a></li>
+              <li><a href="#none">사업실명제</a></li>
+            </ul>
+        </div>
+      </div>
+          <div class="sub_menu_wrap">
+            <div>
+              <a href="#none"><h3>청렴센터</h3></a>
+              <ul>
+                <li><a href="#none">반부패/청렴정책</a></li>
+                <li><a href="#none">청렴정보공개</a></li>
+                <li><a href="#none">청렴위반신고(감사실)</a></li>
+                <li><a href="#none">청렴위반신고(국민권익위원회)</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#none"><h3>공정계약모니터링</h3></a>
+              <ul>
+                <li><a href="#none">공정계약모니터링 안내</a></li>
+                <li><a href="#none">설문조사 작성</a></li>
+                <li><a href="#none">청렴위반신고(감사실)</a></li>
+                <li><a href="#none">청렴위반신고(국민권익위원회)</a></li>
+              </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="sub_menu" id="hospital">
+      <div class="submenu_content">
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>병원소개</h3></a>
+            <ul>
+              <li><a href="#none">병원장 인사말</a></li>
+              <li><a href="#none">미션/비전</a></li>
+              <li><a href="#none">현황</a></li>
+              <li><a href="#none">연혁</a></li>
+              <li><a href="#none">조직도</a></li>
+              <li><a href="#none">HI 소개</a></li>
+              <li><a href="#none">시그니처/엠블럼/기타</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>병원소식</h3></a>
+            <ul>
+              <li><a href="news.html">공지사항</a></li>
+              <li><a href="#none">보도자료</a></li>
+              <li><a href="#none">언론&방송</a></li>
+              <li><a href="#none">건강정보동영상</a></li>
+              <li><a href="#none">채용공고</a></li>
+              <li><a href="#none">입찰공고</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>행복지기</h3></a>
+          </div>
+        </div>
+        <div class="sub_menu_wrap">
+          <div>
+            <a href="#none"><h3>홍보동영상</h3></a>
+          </div>
+          <div>
+            <a href="#none"><h3>서비스헌장</h3></a>
+            <ul>
+              <li><a href="#none">환자권리장전</a></li>
+              <li><a href="#none">고객헌장</a></li>
+              <li><a href="#none">병원윤리강령</a></li>
+              <li><a href="#none">사회공헌헌장</a></li>
+              <li><a href="#none">안전보건경영방침</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#none"><h3>공공보건의료</h3></a>
+          </div>
+          <div>
+            <a href="#none"><h3>발전기금</h3></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 모바일에서 보이는 아코디언메뉴 -->
+  <div class="accordion" id="accordion_menu">
+    <div class="accordion_item">
+      <div class="accordion_title">진료안내</div>
+      <div class="accordion_content">
+        <ul>
+          <li><a href="#none">진료과/의료진</a></li>
+          <li><a href="#none">전문센터</a></li>
+          <li><a href="#none">클리닉</a></li>
+          <li><a href="#none">외래진료안내</a></li>
+          <li><a href="#none">입/퇴원안내</a></li>
+          <li><a href="#none">진료비 하이패스 (후불제)</a></li>
+          <li><a href="#none">진료지원</a></li>
+          <li><a href="#none">의약품정보</a></li>
+          <li><a href="#none">건강정보</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">진료예약</div>
+      <div class="accordion_content">
+        <ul>
+          <li><a href="#none">예약안내</a></li>
+          <li><a href="#none">예약확인</a></li>
+          <li><a href="#none">증명서발급</a></li>
+          <li><a href="#none">비급여진료비</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">이용안내</div>
+      <div class="accordion_content">
+        <ul>
+          <li><a href="#none">고객지원</a></li>
+          <li><a href="#none">찾아오시는길</a></li>
+          <li><a href="#none">원내배치도</a></li>
+          <li><a href="#none">전화번호안내</a></li>
+          <li><a href="#none">주차안내</a></li>
+          <li><a href="#none">편의시설</a></li>
+          <li><a href="#none">장례식장</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">병원소개</div>
+      <div class="accordion_content">
+        <ul>
+          <li><a href="#none">병원소개</a></li>
+          <li><a href="#none">병원소식</a></li>
+          <li><a href="#none">행복지기</a></li>
+          <li><a href="#none">홍보동영상</a></li>
+          <li><a href="#none">서비스헌장</a></li>
+          <li><a href="#none">공공보건의료</a></li>
+          <li><a href="#none">발전기금</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<main>
+<!-- 회원가입 -->
+<section class="regist inner">
+  <div class="regist_tit">
+    <div class="regist_textbox">
+      <h3>KANGWON NATIONAL UNIVERSITY HOSPITAL</h3>
+    <p>강원대학교병원 홈페이지에 방문해 주신것을 환영합니다.<br>
+    강원대학교 병원의 회원이 되시면 진료예약, 제증명발급, 신청 등 다양한 서비스를 받으실 수 있습니다.
+    </p>
+    </div>
+    <img src="../images/join_topbox_1.png" alt="">
+  </div>
+  <div class="ui_progress_bar">
+    <ol>
+      <div><img src="../images/join_tab_simbol_1.png" alt=""></div>
+      <li>
+        <span>STEP.01</span>
+        <p>회원선택/본인인증</p>
+      </li>
+      <div><img src="../images/join_tab_simbol_2.png" alt=""></div>
+      <li>
+        <span>STEP.02</span>
+        <p>정보입력</p>
+      </li>
+      <div><img src="../images/join_tab_simbol_3.png" alt=""></div>
+      <li>
+        <span>STEP.03</span>
+        <p>가입완료</p>
+      </li>
+    </ol>
+  </div>
+  <div class="ui_list">
+    <div class="ui_inner">
+      <div class="item">
+        <span>일반 가입</span>
+        <p>만 14세 이상 내국인</p>
+        <img src="../images/join_simbol_1.png" alt="">
+        <button>가입하기</button>
+      </div>
+    </div>
+    <div class="ui_inner">
+      <div class="item">
+        <span>소아/청소년 가입</span>
+        <p>만 14세 미만 내국인</p>
+        <img src="../images/join_simbol_2.png" alt="">
+        <button>가입하기</button>
+      </div>
+    </div>
+  </div>
+  <div class="txt_tip">
+    <p>
+      <i class="fa-solid fa-circle-exclamation"></i> 귀하의 정보는 동의 없이 공개되지 않으며, <b>개인정보 보호정책</b>에 의해 보호받고 있습니다.
+    </p>
+    <p>
+      강원대학교병원은 사용자 여러분이 강원대학교병원 홈페이지의 서비스를 이용하기 위해 제공하신 개인정보가 보호받을 수 있도록 최선을 다하고 있습니다.
+    </p>
+  </div>
+</section>
+</main>
+<!-- 푸터 -->
+<footer>
+<div class="footerNav_wrap">
+  <div class="footerNav">
+    <div class="footerNav_title">
+      <span>
+        진료과 <i class="fa-solid fa-list"></i>
+      </span>
+    </div>
+    <div class="footerNav_menu menu1">
+      <ul>
+        <li><a href="#none">가정의학과</a></li>
+        <li><a href="#none">감염내과</a></li>
+        <li><a href="#none">마취통증의학과</a></li>
+        <li><a href="#none">방사선종양학과</a></li>
+        <li><a href="#none">병리과</a></li>
+        <li><a href="#none">비뇨의학과</a></li>
+        <li><a href="#none">산부인과</a></li>
+        <li><a href="#none">소아청소년과</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footerNav">
+    <div class="footerNav_title">
+      <span>
+        전문센터 <i class="fa-solid fa-list"></i>
+      </span>
+    </div>
+    <div class="footerNav_menu menu2">
+      <ul>
+        <li><a href="#none">종합건강증진센터</a></li>
+        <li><a href="#none">중환자진료센터</a></li>
+        <li><a href="#none">진료협력센터</a></li>
+        <li><a href="#none">지역의약품안전센터</a></li>
+        <li><a href="#none">국제진료센터</a></li>
+        <li><a href="#none">비뇨의학과</a></li>
+        <li><a href="#none">장기이식센터</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="footer_content">
+  <ul>
+    <li><a href="#none">개인정보 처리방침</a></li>
+    <li><a href="#none">고객헌장</a></li>
+    <li><a href="#none">환자권리와 의무</a></li>
+    <li><a href="#none">경영정보공개</a></li>
+  </ul>
+</div>
+<div class="footer_text">
+  <address>(24289) 강원특별자치도 춘천시 백령로 156 강원대학교병원, 대표전화 : 033-258-2000 <br>
+    COPYRIGHT(C) 2010 KNUH.OR.KR ALL RIGHTS RESERVED. 응급의료센터 033-258-2293</address>
+    <div class="footer_logo">
+      <img src="../images/mainLogo.png" alt="">
+    </div>
+</div>
+</footer>
+<script src="../js/pages.js"></script>
+</body>
+</html>
