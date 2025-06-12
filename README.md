@@ -151,7 +151,7 @@
 ## 🚀 링크
 
 
-- [📄 프로젝트 기획서 보기]()<br>
+- [📄 프로젝트 기획서 보기](https://docs.google.com/presentation/d/1sJty7bCh9RGYpnoSXrHg1kHQoe4N83011asa7wC_cgk/edit?usp=sharing)<br>
 - [🎨 와이어프레임, 피그마 디자인 시안 보기](https://www.figma.com/design/BGi95Rqk89ytdNjVg5OZHT/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%A1%B0%EC%98%88%EC%A7%84?node-id=0-1&t=FFwrj44xS5GJhdWN-1)
 - [🏣 강원대학교 병원 리뉴얼 웹사이트 바로가기](https://yejin0722.github.io/KNUH1/)
 
