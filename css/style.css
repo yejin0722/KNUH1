@@ -101,6 +101,14 @@ font-size: 23px; color: var(--main-color);}
 .sub_menu_wrap div h3{margin-top: 1.2rem;
 font-size: 18px; font-weight: 500; color: #000;}
 .sub_menu_wrap div li{margin-top: .5rem; font-size: 15px;}
+.sub-page-hover-event{
+  ::before{
+  content: ''; width: 45px; height: 2px; 
+  background-color: var(--Db-color); position: absolute;
+  top: 30%; 
+  animation: click 1s infinite;
+  }
+}
 .sub_menu_wrap ul li a{padding: 5px 10px; margin-top: 10px; line-height: 30px; position: relative;}
 /* 마우스오버 이벤트랑 비포 */
 .sub_menu_wrap ul li a::before{
