@@ -523,8 +523,4 @@ table{border-collapse: collapse;}
   top: 30%;
   animation: click 1s infinite;
   }
-  @keyframes click{
-    0%{transform: scale(.5);}
-    50%{transform: scale(1.2);}
-    100%{transform: scale(.5);}
-  }
+
