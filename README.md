@@ -134,21 +134,21 @@
 
 | 서브01 : 로그인                                                                                                      |
 | :------------------------------------------------------------------------------------------------------------------------ |
-| ![Image](https://github.com/user-attachments/assets/6adeabdc-5f1f-445f-8982-b71a77da118b) |
+| ![Image](https://github.com/user-attachments/assets/a1e74873-7440-4d44-9182-8ac71ed8c040) |
 | 로그인을 위한 페이지입니다.
-| ![Image](https://github.com/user-attachments/assets/dd02c6fd-4eb7-4584-ad48-90f2195d945d) |
+| ![Image](https://github.com/user-attachments/assets/17650e60-00bd-4fe7-a5f0-ef7266fcb2ae) |
 | 아이디 또는 비밀번호 입력란이 비어 있을 경우, "아이디, 비밀번호를 입력해주세요." **경고창이 출력**되도록 자바스크립트로 구현했습니다.
 <br>
 
 | 서브02 : 회원가입                                                                                                       |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| ![Image](https://github.com/user-attachments/assets/a1e74873-7440-4d44-9182-8ac71ed8c040) |
+| ![Image](https://github.com/user-attachments/assets/1b44ddda-dbdf-4c62-ab98-b68ca5ac5552) |
 | 회원가입을 할 수 있는 페이지입니다. 단계별 안내로 **사용자 편의성을 고려**해 구현하였습니다.
 <br>
 
 | 서브03 : 공지사항                                                                                                       |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| ![Image](https://github.com/user-attachments/assets/1b44ddda-dbdf-4c62-ab98-b68ca5ac5552) |
+| ![Image](https://github.com/user-attachments/assets/19543c7f-a5dc-4e3d-8d97-94c2216ca1aa) |
 | 공지사항을 표 형식으로 구성한 페이지입니다.
 | 한 페이지당 최대 10개의 게시물이 표시되며, **페이지네이션 기능**을 적용하여 다음 게시글을 순차적으로 확인할 수 있도록 구현했습니다.
 
